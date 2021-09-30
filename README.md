@@ -1,17 +1,17 @@
-# ExcelXvba (excel-xvba)
+# ExcelXvba
 
-- Call Excel COM on Nodejs for Read, manipulate and write spreadsheet
+- Excel Librar for Read, manipulate and write spreadsheet. (Whith Auto-Completion)
 
-- See www.xvba.dev, for more info
+- See www.xvba.dev, for more info.
 
-# If you want to create your own Windows COM Like this package See xvbacomjs package
+## If you want to create your own Windows COM Like this package See xvba-com package
 
-- <a href="https://www.npmjs.com/package/xvbacomjs">XvbaComjs</a> 
+- <a href="https://www.npmjs.com/package/xvba-com">XvbaCom</a> 
 
-# Info - Edit vba on VSCode with XVBA:
+## Info - Edit vba on VSCode with XVBA:
 
 - <a href="https://xvba-repository.web.app/"> www.xvba.dev</a> 
-# Importing[?]
+## Importing
 
 ```javascript
 
@@ -37,3 +37,8 @@ excel.Quit();
 Excel.CloseAllCOMWithDelay();
 
 ```
+
+
+## Contributions
+
+- Contributions are very welcome!
