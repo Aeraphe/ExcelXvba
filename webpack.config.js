@@ -48,13 +48,7 @@ const config = {
     devtoolModuleFilenameTemplate: '../[resource-path]'
   },
   devtool: 'source-map',
-  externals: {
-    fsevents: "require('fsevents')",
-    "ffi-napi": "ffi-napi",
-    'ref-napi' :  'ref-napi',
-    'any-promise' : 'any-promise',
-    'xvbacomjs': 'xvbacomjs'
-  },
+  externals: {'xvba-com': 'xvba-com'},
   resolve: {
     // support reading TypeScript and JavaScript files, ?? -> https://github.com/TypeStrong/ts-loader
     extensions: ['.ts', '.js']
