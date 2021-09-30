@@ -1,0 +1,33 @@
+{
+  "name": "excel-xvba",
+  "version": "1.0.0",
+  "description": "A TypeScript Extension for use Excel COM",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aeraphe/ExcelXvba.git"
+  },
+  "keywords": [
+    "Excel"
+  ],
+  "author": "Alberto Aeraphe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aeraphe/ExcelXvba/issues"
+  },
+  "homepage": "https://github.com/Aeraphe/ExcelXvba#readme",
+  "dependencies": {
+    "xvbacomjs": "^1.0.4-b"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
