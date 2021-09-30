@@ -1,4 +1,4 @@
-import { XvbaCOM } from "xvbacomjs";
+import { XvbaCOM } from "xvba-com";
 
 export class VBComponent extends XvbaCOM {
   private _Name: string;

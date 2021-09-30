@@ -1,4 +1,4 @@
-import { XvbaCOM } from "xvbacomjs";
+import { XvbaCOM } from "xvba-com";
 
 
 export class Sheets extends XvbaCOM {

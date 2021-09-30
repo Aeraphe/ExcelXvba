@@ -1,4 +1,4 @@
-import { XvbaCOM } from "xvbacomjs";
+import { XvbaCOM } from "xvba-com";
 import { VBProject } from "./VBProject";
 
 export class WorkBook extends XvbaCOM {

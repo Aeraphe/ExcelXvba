@@ -1,4 +1,4 @@
-import { XvbaCOM } from "xvbacomjs";
+import { XvbaCOM } from "xvba-com";
 import { Sheets } from "./Sheets";
 import { WorkBooks } from "./WorkBooks";
 
