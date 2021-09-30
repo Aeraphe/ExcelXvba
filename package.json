@@ -21,13 +21,13 @@
     "url": "https://github.com/Aeraphe/ExcelXvba/issues"
   },
   "homepage": "https://github.com/Aeraphe/ExcelXvba#readme",
-  "dependencies": {
-    "xvbacomjs": "^1.0.4-b"
-  },
   "devDependencies": {
     "dotenv": "^10.0.0",
     "ts-loader": "^9.2.6",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "xvba-com": "^1.0.0-b"
   }
 }
