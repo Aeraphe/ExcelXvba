@@ -1,7 +1,7 @@
 {
   "name": "excel-xvba",
-  "version": "1.0.0",
-  "description": "A TypeScript Extension for use Excel COM",
+  "version": "1.0.3b",
+  "description": "Excel Library for Read, manipulate and write spreadsheet. (Whith Auto-Completion)",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -13,21 +13,29 @@
     "url": "git+https://github.com/Aeraphe/ExcelXvba.git"
   },
   "keywords": [
-    "Excel"
+    "xvba",
+    "vba",
+    "excel",
+    "win32",
+    "ol32",
+    "word",
+    "powerpoint"
   ],
-  "author": "Alberto Aeraphe",
-  "license": "ISC",
+  "author": "Alberto Eduardo de Castro Oliveira",
+  "email": "albeto.aeraphe@gmail.com",
+  "homepage": "www.xvba.dev",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Aeraphe/ExcelXvba/issues"
   },
-  "homepage": "https://github.com/Aeraphe/ExcelXvba#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
     "dotenv": "^10.0.0",
     "ts-loader": "^9.2.6",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0"
   },
   "dependencies": {
-    "xvba-com": "^1.0.0-b"
+    "xvba-com": "^1.0.3-b"
   }
 }

@@ -7,7 +7,21 @@ require('dotenv').config();
 const path = require('path');
 
 const TerserPlugin = require('terser-webpack-plugin')
+const CopyPlugin = require("copy-webpack-plugin");
 const env = process.env;
+
+const copyFiles  = new CopyPlugin({
+  patterns: [
+    {
+      from: "*.md",
+      to: "./",
+    },
+    {
+      from: "*package.json",
+      to: "./",
+    },
+  ],
+});
 
 console.log(env.NODE_ENV);
 const pl = [];
@@ -29,7 +43,7 @@ ugyfy();
 
 /**@type {import('webpack').Configuration}*/
 const config = {
-  plugins: pl,
+  plugins: [...pl,copyFiles],
   optimization: {
     minimize: env.NODE_ENV === "DEV" ? false : true,
 
