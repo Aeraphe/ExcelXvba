@@ -14,7 +14,7 @@ export class VBComponents extends XvbaCOM {
     }
 
     Item(value:number):VBComponent{
-      return this.CallMethodToGetObject("Item",value,VBComponent);
+      return this.CallMethodToGetObject("Item",VBComponent,value);
     }
   }
   

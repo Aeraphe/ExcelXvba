@@ -16,6 +16,6 @@ export class WorkBooks extends XvbaCOM {
    * @returns
    */
   Open(filePath: string) {
-    return this.CallMethodToGetObject("Open", filePath,WorkBook);
+    return this.CallMethodToGetObject("Open", WorkBook,filePath);
   }
 }
