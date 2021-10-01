@@ -1,6 +1,6 @@
 # ExcelXvba
 
-- Excel Librar for Read, manipulate and write spreadsheet. (Whith Auto-Completion)
+- Excel Librar for Read, manipulate and write spreadsheet. (With Auto-Completion)
 
 - See www.xvba.dev, for more info.
 
@@ -23,7 +23,7 @@ excel.Visible();
 
 const  xlPath = path.join(__basedir,"index.xlsb");
 
-const Book: WorkBook = excel.WorkBooks.Open);
+const Book: WorkBook = excel.WorkBooks.Open(xlPath);
 
 const sheets = excel.Sheets;
 
